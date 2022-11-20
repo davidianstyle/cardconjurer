@@ -1,7 +1,7 @@
 <?php
 $title = 'Card Conjurer - Tutorials';
 $desc = 'Written guides on how to create a variety of custom Magic: The Gathering cards on Card Conjurer';
-include('globalHTML/header-1.php');
+include('../globalHTML/header-1.php');
 ?>
 	<div class='layer center'>
 		<h2>Written Guides</h2>
@@ -54,4 +54,4 @@ include('globalHTML/header-1.php');
 			</div>
 		</div>
 	</div>
-<?php include('globalHTML/footer.php'); ?>
+<?php include('../globalHTML/footer.php'); ?>
