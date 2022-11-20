@@ -1,5 +1,8 @@
-# Start with PHP-FPM 8.1 & Nginx 1.22 on Alpine Linux
-FROM trafex/php-nginx
+# Start with XAMPP image using PHP8
+FROM tomsik68/xampp:8
 
 # Copy local files into destination volume
-COPY . /var/www/html
+COPY . /www/
+
+# Copy Apache config into destination config folder
+COPY ./apache/httpd.conf /opt/lampp/apache2/conf.d/
