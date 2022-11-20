@@ -6,7 +6,7 @@ if (debugging) {
 	document.querySelectorAll('.debugging').forEach(element => element.classList.remove('hidden'));
 }
 
- // davidianstyle edit: simply return URI instead of redirecting to https://card-conjurer.storage.googleapis.com
+// davidianstyle edit: simply return URI instead of redirecting to https://card-conjurer.storage.googleapis.com
 function fixUri(input) {
 	return input;
 }
