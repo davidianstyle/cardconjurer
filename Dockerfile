@@ -2,7 +2,7 @@
 FROM tomsik68/xampp:8
 
 # Copy local files into destination volume
-COPY * /www/
+COPY . /www/
 RUN ls -la /www/
 
 # Copy Apache config into destination config folder
